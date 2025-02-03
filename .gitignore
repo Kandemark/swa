@@ -1,0 +1,49 @@
+# Mabaki ya kujenga ya Rust
+/target
+**/*.rs.bk
+*.pdb
+
+# Matokeo ya mkusanyaji wa Swa
+*.exe
+*.o
+*.obj
+*.out
+*.ll
+*.bc
+*.s
+*.asm
+
+# Kiendeshi cha bootstrap
+stage1.exe
+
+# Mabaki ya C/C++ (kutoka kiunganishi)
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+*.exp
+*.ilk
+
+# Faili za mhariri na IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Faili za utatuzi na mwendo
+*.dump
+*.stackdump
+core
+*.core
+
+# Siri na mazingira
+.env
+.env.local
+
+# Faili za mfumo wa uendeshaji
+Desktop.ini
+$RECYCLE.BIN/
